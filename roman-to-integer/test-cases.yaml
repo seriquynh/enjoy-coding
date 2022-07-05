@@ -1,28 +1,82 @@
 test_cases:
-    - ['I', 1]
-    - ['V', 5]
-    - ['X', 10]
-    - ['L', 50]
-    - ['C', 100]
-    - ['D', 500]
-    - ['M', 1000]
-    - ['II', 2]
-    - ['XX', 20]
-    - ['CC', 200]
-    - ['MM', 2000]
-    - ['III', 3]
-    - ['XXX', 30]
-    - ['CCC', 300]
-    - ['MMM', 3000]
-    - ['VI', 6]
-    - ['VII', 7]
-    - ['VIII', 8]
-    - ['IX', 9]
-    - ['XI', 11]
-    - ['XII', 12]
-    - ['XIII', 13]
-    - ['LVIII', 58]
-    - ['MCMXCIV', 1994]
-    - ['MMCCCXXV', 2325]
-    - ['MMCDLXXV', 2475]
-    - ['MCCLXXV', 1275]
+  -
+    input: 'I'
+    output: 1
+  -
+    input: 'V'
+    output: 5
+  -
+    input: 'X'
+    output: 10
+  -
+    input: 'L'
+    output: 50
+  -
+    input: 'C'
+    output: 100
+  -
+    input: 'D'
+    output: 500
+  -
+    input: 'M'
+    output: 1000
+  -
+    input: 'II'
+    output: 2
+  -
+    input: 'XX'
+    output: 20
+  -
+    input: 'CC'
+    output: 200
+  -
+    input: 'MM'
+    output: 2000
+  -
+    input: 'III'
+    output: 3
+  -
+    input: 'XXX'
+    output: 30
+  -
+    input: 'CCC'
+    output: 300
+  -
+    input: 'MMM'
+    output: 3000
+  -
+    input: 'VI'
+    output: 6
+  -
+    input: 'VII'
+    output: 7
+  -
+    input: 'VIII'
+    output: 8
+  -
+    input: 'IX'
+    output: 9
+  -
+    input: 'XI'
+    output: 11
+  -
+    input: 'XII'
+    output: 12
+  -
+    input: 'XIII'
+    output: 13
+  -
+    input: 'LVIII'
+    output: 58
+  -
+    input: 'MCMXCIV'
+    output: 1994
+  -
+    input: 'MMCCCXXV'
+    output: 2325
+  -
+    input: 'MMCDLXXV'
+    output: 2475
+  -
+    input: 'MCCLXXV'
+    output: 1275
